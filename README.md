@@ -35,19 +35,13 @@
   - Upload channel avatar
 
 
-
-## API Documentation
-
-
-Extensive and testing documentation with postman: [VueTube API](https://documenter.getpostman.com/view/9407876/SzYaVdtC?version=latest)
-
 ## Database Model
 
 Though the diagram uses sql data type, this diagram is to show you the various collections in the mongo database.
 
-![Screenshot](screenshots/vue_tube_ERD.jpg)
 
-## Requirement
+
+## Requirements
 
 - NodeJS
 - MongoDB
@@ -73,8 +67,8 @@ SMTP_HOST=smtp.mailtrap.io
 SMTP_PORT=2525
 SMTP_EMAIL=
 SMTP_PASSWORD=
-FROM_EMAIL=noreply@quizapp.com
-FROM_NAME=QuizzApp
+FROM_EMAIL=noreply@videoapp.com
+FROM_NAME=VideoApp
 ```
 
 Email testing: use mailtrap for email testing, it's easy no stress.
