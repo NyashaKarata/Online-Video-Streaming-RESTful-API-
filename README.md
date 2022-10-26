@@ -1,6 +1,6 @@
 # Video Streaming RESTful API - 
 
-> This app is built with nodejs, expressjs & mongodb.
+> This app is built with nodejs, expressjs & mongodb
 
 ## Features
 
