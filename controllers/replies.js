@@ -1,4 +1,4 @@
-con asyncHandler = require('../middleware/async')
+cons asyncHandler = require('../middleware/async')
 const ErrorResponse = require('../utils/errorResponse')
 
 const Comment = require('../models/Comment')
