@@ -4,7 +4,7 @@ const ErrorResponse = require('../utils/errorResponse')
 const Comment = require('../models/Comment')
 const Reply = require('../models/Reply')
 
-// @desc    Get comments
+// @desc    Get comment
 // @route   GET /api/v1/replies
 // @access  Public
 exports.getReplies = asyncHandler(async (req, res, next) => {
