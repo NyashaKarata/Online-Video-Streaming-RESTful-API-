@@ -5,7 +5,7 @@ const advancedResultsFunc = require('../utils/advancedResultsFunc')
 const Video = require('../models/Video')
 const Feeling = require('../models/Feeling')
 
-// @desc    Create fee
+// @desc    Create fe
 // @route   POST /api/v1/feelings/
 // @access  Private
 exports.createFeeling = asyncHandler(async (req, res, next) => {
