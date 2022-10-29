@@ -25,7 +25,7 @@ const errorHandler = (err, req, res, next) => {
     error = new ErrorResponse(message, 400)
   }
 
-  // Mongoose validation erro
+  // Mongoose validation error
   if (err.name === 'ValidationError') {
     const message = []
     Object.values(err.errors).forEach(errr => {
