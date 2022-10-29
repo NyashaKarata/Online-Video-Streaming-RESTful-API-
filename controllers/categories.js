@@ -2,7 +2,7 @@ const asyncHandler = require('../middleware/async')
 const ErrorResponse = require('../utils/errorResponse')
 const Category = require('../models/Category')
 
-// @desc    Get categori
+// @desc    Get categor
 // @route   GET /api/v1/categories
 // @access  Private/Admin
 exports.getCategories = asyncHandler(async (req, res, next) => {
