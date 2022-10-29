@@ -43,6 +43,6 @@ const errorHandler = (err, req, res, next) => {
   })
 }
 
-module.exports = errorHandl
+module.exports = errorHandle
 
 
