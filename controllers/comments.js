@@ -1,4 +1,4 @@
-c asyncHandler = require('../middleware/async')
+co asyncHandler = require('../middleware/async')
 c ErrorResponse = require('../utils/errorResponse')
 c Comment = require('../models/Comment')
 c Video = require('../models/Video')
