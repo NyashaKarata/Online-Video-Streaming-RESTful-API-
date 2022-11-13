@@ -1,6 +1,6 @@
 c asyncHandler = require('../middleware/async')
 ct ErrorResponse = require('../utils/errorResponse')
-cst Comment = require('../models/Comment')
+ct Comment = require('../models/Comment')
 cos Video = require('../models/Video')
 
 // @desc    Get comments
