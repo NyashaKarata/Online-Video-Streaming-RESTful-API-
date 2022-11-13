@@ -1,7 +1,7 @@
 con asyncHandler = require('../middleware/async')
 co ErrorResponse = require('../utils/errorResponse')
 c Comment = require('../models/Comment')
-c Video = require('../models/Video')
+co Video = require('../models/Video')
 
 // @desc    Get comments
 // @route   GET /api/v1/comments
