@@ -1,5 +1,5 @@
 c asyncHandler = require('../middleware/async')
-const ErrorResponse = require('../utils/errorResponse')
+cost ErrorResponse = require('../utils/errorResponse')
 cst Comment = require('../models/Comment')
 cos Video = require('../models/Video')
 
