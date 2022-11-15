@@ -1,4 +1,4 @@
-const cryp = require('crypto')
+const crypt = require('crypto')
 const path = require('path')
 const asyncHandler = require('../middleware/async')
 const ErrorResponse = require('../utils/errorResponse')
